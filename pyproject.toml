@@ -1,0 +1,8 @@
+[project]
+name = "api-health-monitor"
+version = "0.1.0"
+description = "Educational one-shot HTTP diagnostics utility"
+requires-python = ">=3.12"
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
